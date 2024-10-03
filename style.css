@@ -1,0 +1,114 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+
+--cyan-color:hsl(179,62%,43%);
+--bright-yellow-color: hsl(71,73%,54%);
+--light-gray:hsl(204,43%,93%); 
+--grayish-blue: hsl(218,22%,67%);
+
+}
+
+html{
+    font-family: 'Karla' , sans-serif  ;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:var(--light-gray);
+}
+
+.container{
+    background-color: #fff ; 
+    display: grid ;
+    grid-template-columns: 1fr; 
+    max-width: 580px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.content{
+display: grid;  
+grid-template-columns: 1fr 1fr ;    
+color: #fff;
+padding: 10px;
+align-content: center;
+
+}
+
+.features{
+    background-color: hsla(179,62%,43%, 0.8);
+    padding: 30px;
+   
+}
+
+ header .title{
+    color: var(--cyan-color);
+}
+
+.subcription{
+background-color: var(--cyan-color);
+padding: 30px;
+border-radius: 0 0 0 15px;
+
+}
+
+.features-lists{
+    list-style: none;
+    margin-top: 25px;
+    border-radius: 30px;
+}
+
+header{
+    padding: 10px;
+}
+
+header .sub-title{
+
+color: var(--bright-yellow-color);
+margin: 15px 0 10px 0;
+
+
+}
+
+.header .description{
+color: var(--grayish-blue);
+}
+
+.features{
+    border-radius: 0 0  15px 0;
+}
+
+.subcription span{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.subcription .sign-up-btn{
+
+    background-color: var(--bright-yellow-color);
+    border: none;
+    outline: none;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 20px;
+ 
+
+}
+.subcription .access-info{
+
+font-size: 13px;
+margin-top: 25px;
+
+
+}
